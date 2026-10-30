@@ -14,14 +14,10 @@ header .header-tagline{display:block;border-left:1px solid #8296a6;padding-left:
 @media(max-width:850px){header .brand-logo{width:115px;height:50px}header .logo{gap:12px}header .header-tagline{padding-left:12px;font-size:8px!important}.hero-artline{right:3%;top:8%}}
 @media(max-width:420px){header .brand-logo{width:93px;height:43px}header .header-tagline{font-size:7px!important;letter-spacing:.5px!important}header .logo{gap:8px}}
 
-/* v1.3 photographic rebuild and form embed */
-.hero{grid-template-columns:45% 55%;gap:0;min-height:660px;background:radial-gradient(circle at 83% 50%,#1d3348 0%,#0a1017 62%)}
-.hero>div:first-child{position:relative;z-index:2}
-.hero-visual{align-self:stretch;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.hero-visual img{width:100%;height:590px;max-height:none;object-fit:cover;object-position:center;mask-image:linear-gradient(to right,transparent 0%,black 13%);-webkit-mask-image:linear-gradient(to right,transparent 0%,black 13%)}
-.ghl-form-wrap{width:min(100%,960px);min-height:950px;margin:auto;background:#111b25;border:1px solid #2a3c4c;border-radius:12px;overflow:hidden}
-.ghl-form-wrap iframe{display:block;width:100%;min-height:950px}
-.cardimg{height:370px;object-fit:contain;background:#eef0f2}
-.photo{max-height:650px;object-fit:contain}
-@media(max-width:850px){.hero{grid-template-columns:1fr;min-height:0}.hero-visual img{height:460px;mask-image:none;-webkit-mask-image:none}.ghl-form-wrap,.ghl-form-wrap iframe{min-height:1100px}}
-@media(max-width:520px){.hero-visual img{height:310px}.ghl-form-wrap,.ghl-form-wrap iframe{min-height:1250px}}
+/* v1.4 approved homepage sections */
+.hero-v14{position:relative;display:flex;align-items:center;min-height:clamp(650px,52vw,850px);padding:80px 5vw;background:#09111b url('hero-v14.jpg') center center/cover no-repeat;isolation:isolate}
+.hero-v14 .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,10,17,.96) 0%,rgba(4,10,17,.86) 23%,rgba(4,10,17,.42) 43%,transparent 67%);z-index:-1}
+.hero-v14 .hero-copy{max-width:480px;position:relative;z-index:1}.hero-v14 h1{font-size:clamp(48px,5.4vw,82px);margin:18px 0}.hero-v14 p{max-width:410px;color:#f0f5f9;line-height:1.55;text-shadow:0 2px 12px #000b}.hero-v14 .eyebrow{color:#83c9ff}.hero-v14 .hero-artline{position:absolute;right:4%;top:13%;color:white;z-index:1}.hero-v14 .actions{gap:10px}.hero-v14 .btn{padding:14px 19px}
+.feel-v14{position:relative;isolation:isolate;display:flex;align-items:center;min-height:clamp(530px,43vw,760px);background:#08131e url('north-ridge-v14.jpg') center center/cover no-repeat;padding:90px 5vw}.feel-v14 .feel-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(5,12,21,.88),rgba(5,12,21,.63) 32%,transparent 62%)}.feel-v14 .feel-copy{max-width:490px}.feel-v14 h2{color:#fff}.feel-v14 p{color:#e3edf6;max-width:450px}.feel-v14 .eyebrow,.feel-v14 .link{color:#83c9ff}.feel-v14 .link{display:inline-block;margin-top:16px}
+@media(max-width:850px){.hero-v14{min-height:730px;align-items:flex-start;padding-top:75px;background-position:60% center}.hero-v14 .hero-shade{background:linear-gradient(180deg,#08111cf2 0%,#08111cce 35%,#08111c22 75%)}.hero-v14 .hero-artline{top:auto;bottom:6%;right:6%}.feel-v14{min-height:640px;background-position:61% center;align-items:flex-start}.feel-v14 .feel-shade{background:linear-gradient(180deg,#08111ce8 0%,#08111cba 40%,transparent 85%)}}
+@media(max-width:520px){.hero-v14{min-height:720px;padding:60px 6vw;background-position:57% center}.hero-v14 h1{font-size:clamp(44px,12vw,62px)}.hero-v14 .hero-copy{max-width:100%}.hero-v14 p{font-size:14px}.hero-v14 .hero-artline{font-size:10px;bottom:5%}.feel-v14{min-height:610px;padding:65px 6vw;background-position:60% center}.feel-v14 .feel-copy{max-width:100%}}
