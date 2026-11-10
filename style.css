@@ -71,3 +71,26 @@ header nav .btn:hover,header nav .btn:focus-visible{background:#a9dfff!important
 .c-hero em,.c-bottom em,.c-color .c-kicker,.c-copy .c-kicker,.c-kicker,.fhero em,.fmetal em,.fcta em,.feyebrow,.foptions>h2{color:var(--aluminate-blue)!important}
 @media(max-width:850px){.header-tagline{font-size:10px!important;letter-spacing:1px!important}nav a{font-size:14px!important}}
 @media(max-width:420px){.header-tagline{font-size:9px!important;letter-spacing:.5px!important}}
+
+
+/* v1.11: approved About visual refresh, no changes to approved Capabilities/Finishes layouts */
+.about-hero-v111{position:relative;isolation:isolate;min-height:590px;display:flex;flex-direction:column;justify-content:center;overflow:hidden;background:#061522;padding-right:48%}
+.about-hero-v111 .about-hero-photo{position:absolute;inset:0;z-index:-2;background:url('about-retail.jpg') right center/cover no-repeat}
+.about-hero-v111:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#041321 0%,#041321f5 22%,#041321aa 45%,transparent 73%)}
+.about-hero-v111 h1{max-width:750px}.about-hero-v111 p{max-width:620px}
+.about-value-image{background-repeat:no-repeat}
+.about-growth-visual{min-height:390px;display:flex;align-items:end;justify-content:space-around;gap:13px;padding:25px 24px 28px;background:radial-gradient(ellipse at 50% 80%,#124368,#061724 73%);overflow:hidden}
+.growth-stage{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;min-width:0;flex:1;gap:16px}
+.growth-stage img{display:block;width:100%;object-fit:contain;object-position:bottom;filter:drop-shadow(0 10px 15px #0008)}
+.growth-stage.launch img{height:88px}.growth-stage.growth img{height:166px}.growth-stage.nationwide{flex:1.45}.growth-stage.nationwide img{height:250px;object-fit:contain}
+.growth-stage strong{text-align:center;text-transform:uppercase;color:#fff;font-size:clamp(10px,1vw,15px);letter-spacing:.05em;line-height:1.2;min-height:36px}
+.about-cycle{min-height:390px;position:relative;background:radial-gradient(circle,#134367 0%,#071d30 64%,#061724);display:grid;grid-template-columns:repeat(2,1fr);gap:36px;align-items:center;justify-items:center;padding:30px 50px;border-radius:0}
+.about-cycle:before{content:"";position:absolute;inset:17% 28%;border:5px dashed #83c9ff88;border-radius:50%}
+.cycle-step{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:5px;text-transform:uppercase;font-size:12px;color:#fff;text-align:center}
+.cycle-step span{font-size:45px;color:#83c9ff;line-height:1.2}.cycle-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:76px;font-weight:900;color:#fff;text-shadow:0 0 30px #83c9ff}
+@media(max-width:800px){.about-hero-v111{padding-right:6vw;min-height:500px}.about-hero-v111:before{background:linear-gradient(90deg,#041321fa 0%,#041321dd 55%,#04132166 100%)}.about-growth-visual{min-height:310px;padding:18px 10px}.growth-stage.launch img{height:70px}.growth-stage.growth img{height:120px}.growth-stage.nationwide img{height:160px}.growth-stage strong{font-size:10px}}
+/* v1.11 requested sitewide blue corrections; canonical brand blue #83C9FF */
+.cap16 .c-stat small,.cap16 .c-stat strong,.cap16 .c-link,.cap16 .c-checks>div:before,.cap16 .c-mini-icon,.finishes18 .feyebrow b,.finishes18 .fmetal-scale span{color:#83c9ff!important}
+.cap16 .c-benefits svg,.cap16 .c-flex-list .c-mini-icon svg,.finishes18 .fbenefits svg{stroke:#83c9ff!important}
+.cap16 .c-button-fill,.finishes18 .fcta-primary{background:#83c9ff!important;color:#061522!important}
+.finishes18 .fbenefits,.finishes18 .fshowcase,.finishes18 .fmetal,.finishes18 .fdepth,.finishes18 .foptions,.finishes18 .fcta{border-color:#36738a!important}
