@@ -94,3 +94,14 @@ header nav .btn:hover,header nav .btn:focus-visible{background:#a9dfff!important
 .cap16 .c-benefits svg,.cap16 .c-flex-list .c-mini-icon svg,.finishes18 .fbenefits svg{stroke:#83c9ff!important}
 .cap16 .c-button-fill,.finishes18 .fcta-primary{background:#83c9ff!important;color:#061522!important}
 .finishes18 .fbenefits,.finishes18 .fshowcase,.finishes18 .fmetal,.finishes18 .fdepth,.finishes18 .foptions,.finishes18 .fcta{border-color:#36738a!important}
+
+/* About page corrections: live HTML hero copy, single-image illustrations */
+.about-hero-v111{padding-right:20%;min-height:540px}
+.about-hero-v111 .about-hero-photo{background-image:url('about-retail-revised.jpg');background-size:auto 100%;background-position:right center;background-repeat:no-repeat;background-color:#041321}
+.about-hero-v111:before{background:linear-gradient(90deg,#041321 0%,#041321 28%,#041321ed 40%,#04132166 64%,transparent 82%)}
+.about-hero-v111 h1{max-width:none;font-size:clamp(34px,4.1vw,65px);line-height:1.09;letter-spacing:-.035em;white-space:nowrap}
+.about-hero-v111 h1 span,.about-hero-v111 h1 em{white-space:nowrap}
+.about-growth-unified{width:100%;min-height:390px;background:#061724 url('about-growth-unified.jpg') center/contain no-repeat}
+.about-cycle-visual{width:100%;min-height:390px;background:#061724 url('about-sustainability-cycle.jpg') center/contain no-repeat}
+@media(max-width:900px){.about-hero-v111{padding-right:5%;}.about-hero-v111 h1{font-size:clamp(26px,5.2vw,46px)}.about-growth-unified,.about-cycle-visual{min-height:270px}}
+@media(max-width:520px){.about-hero-v111 h1{font-size:clamp(21px,5.4vw,30px)}.about-hero-v111 .about-hero-photo{opacity:.55}.about-growth-unified,.about-cycle-visual{min-height:200px}}
