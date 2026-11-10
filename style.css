@@ -28,3 +28,46 @@ header .header-tagline{display:block;border-left:1px solid #8296a6;padding-left:
 /* v1.9: GoHighLevel embedded form */
 .ghl-form-wrap{max-width:900px;margin:0 auto;min-height:750px;}
 .ghl-form-wrap iframe{display:block;width:100%;height:800px;min-height:750px;border:0;border-radius:8px;background:transparent;}
+
+/* v1.10 unified brand system. Primary accent is homepage Engineered blue. */
+:root{--aluminate-blue:#83c9ff;--blue:var(--aluminate-blue);--aluminate-font:Inter,Arial,Helvetica,sans-serif;--aluminate-kicker-size:13px;--aluminate-body-size:17px}
+body{font-family:var(--aluminate-font)}
+.header-tagline{font-size:12px!important;line-height:1.28!important;letter-spacing:1.5px!important}
+nav a{font-size:14px!important}
+header nav .btn{background:var(--aluminate-blue)!important;color:#061522!important;transition:background-color .18s ease,box-shadow .18s ease,filter .18s ease}
+header nav .btn:hover,header nav .btn:focus-visible{background:#a9dfff!important;color:#061522!important;filter:none!important;box-shadow:0 0 0 2px #83c9ff44}
+.eyebrow,.c-kicker,.feyebrow{font-size:var(--aluminate-kicker-size)!important;letter-spacing:2.5px!important;font-weight:800!important;line-height:1.45!important}
+.eyebrow,.number,.c-kicker,.c-kicker span,.feyebrow,.feyebrow b,.foptions>h2,.link,.hero-artline{color:var(--aluminate-blue)}
+.hero-v14 h1 em,.subhero h1 em,.about-hero h1 em,.portfolio-hero h1 em,.c-hero h1 em,.fhero h1 em,.fdepth em,.fcta em{color:var(--aluminate-blue)!important}
+.hero-v14 h1,.subhero h1,.c-hero h1,.fhero h1{font-family:var(--aluminate-font);font-weight:800;letter-spacing:-.045em;line-height:1.02}
+.subhero h1,.c-hero h1,.fhero h1{font-size:clamp(46px,5.5vw,82px)!important}
+.hero-v14 p,.subhero>p,.c-hero p,.fhero p{font-family:var(--aluminate-font);font-size:clamp(16px,1.45vw,20px)!important;line-height:1.48!important}
+.section h2,.c-copy h2,.c-color h2,.fmetal h2,.fdepth h2,.about-value h2{font-family:var(--aluminate-font);font-size:clamp(30px,3.1vw,49px);font-weight:800;line-height:1.1;letter-spacing:-.035em}
+.section p,.c-copy p,.fmetal p,.fdepth p,.about-value p{font-family:var(--aluminate-font);line-height:1.6}
+.hero-v14 .hero-artline{font-size:clamp(23px,3vw,46px)!important}
+.grid5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:30px}
+.cap-summary-grid .tile{padding:22px 17px}.cap-summary-grid .tile b{font-size:17px}.cap-summary-grid .tile p{font-size:13px}
+.portfolio-hero{background:linear-gradient(90deg,#061522ee,#06152299),url('cap-surface.jpg') center/cover}
+.portfolio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:40px}
+.portfolio-card{background:#0b1c2b;border:1px solid #284456;border-radius:9px;overflow:hidden}
+.portfolio-image{position:relative;aspect-ratio:1.48;overflow:hidden;background:#061522}
+.portfolio-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+.portfolio-card:hover .portfolio-image img{transform:scale(1.025)}
+.portfolio-image span{position:absolute;bottom:12px;left:14px;font-size:10px;letter-spacing:1.8px;background:#04131edc;color:#d5e4ee;padding:8px 11px}
+.portfolio-card-copy{padding:23px}.portfolio-card-copy h3{font-size:25px;margin:12px 0}.portfolio-card-copy p{margin:0 0 16px}.portfolio-pending{font-size:12px;color:#83c9ff}
+.portfolio-note{border-top:1px solid #345263;padding-top:20px;margin-top:35px;color:#b6c6d1;font-size:13px}
+.about-hero{background:linear-gradient(90deg,#061522fa,#06152277),url('cap-hero.jpg') right center/cover}
+.about-intro{background:#081b2a}.about-intro h2 em{font-style:normal;color:var(--aluminate-blue)}
+.about-values{border-top:1px solid #1e6179}.about-value{display:grid;grid-template-columns:1fr 1fr;min-height:390px;border-bottom:1px solid #24657c;background:#061927}
+.about-value:nth-child(even) .about-value-image{order:2}
+.about-value-image{background-position:center;background-size:cover;min-height:330px}
+.about-value-copy{padding:clamp(30px,5vw,85px);display:flex;flex-direction:column;justify-content:center}
+.about-value-copy h2{font-size:clamp(27px,3vw,46px);margin:14px 0 5px}
+.about-value-copy h3{font-size:21px;margin:10px 0 6px;color:#fff}.about-value-copy p{max-width:600px}
+@media(max-width:1000px){.grid5{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.grid5,.portfolio-grid{grid-template-columns:1fr}.about-value{grid-template-columns:1fr}.about-value:nth-child(even) .about-value-image{order:0}.about-value-image{min-height:250px}.about-value-copy{padding:30px 6vw}}
+
+/* Accent overrides for Capabilities and Finishes; keep approved imagery and layout. */
+.c-hero em,.c-bottom em,.c-color .c-kicker,.c-copy .c-kicker,.c-kicker,.fhero em,.fmetal em,.fcta em,.feyebrow,.foptions>h2{color:var(--aluminate-blue)!important}
+@media(max-width:850px){.header-tagline{font-size:10px!important;letter-spacing:1px!important}nav a{font-size:14px!important}}
+@media(max-width:420px){.header-tagline{font-size:9px!important;letter-spacing:.5px!important}}
