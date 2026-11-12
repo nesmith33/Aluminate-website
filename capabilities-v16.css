@@ -9,3 +9,7 @@
 /* v1.7: concept-style pictogram icons for Production Flexibility. */
 .cap16 .c-flex-list .c-mini-icon{display:inline-flex;align-items:center;justify-content:center;width:39px;flex:0 0 39px}
 .cap16 .c-flex-list .c-mini-icon svg{width:35px;height:35px;fill:none;stroke:#65e2f6;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round}
+
+/* Revision 9: match approved white/blue eyebrow styling */
+.cap16 .c-hero .c-kicker{color:#fff}
+.cap16 .c-hero .c-kicker span{color:#7cc7ff}
