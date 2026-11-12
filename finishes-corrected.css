@@ -22,3 +22,8 @@
 .fbenefits .tactile-texture-icon{display:block;width:55px;height:55px;object-fit:contain;flex-shrink:0}
 @media(max-width:700px){.fbenefits .tactile-texture-icon{width:42px;height:42px}}
 @media(max-width:440px){.fbenefits .tactile-texture-icon{width:30px;height:30px}}
+
+/* Revision 11: fingerprint icon 10 percent smaller, other icons untouched */
+.finishes18 .fbenefits .tactile-texture-icon{width:49.5px;height:49.5px}
+@media(max-width:700px){.finishes18 .fbenefits .tactile-texture-icon{width:37.8px;height:37.8px}}
+@media(max-width:440px){.finishes18 .fbenefits .tactile-texture-icon{width:27px;height:27px}}

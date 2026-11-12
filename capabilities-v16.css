@@ -13,3 +13,7 @@
 /* Revision 9: match approved white/blue eyebrow styling */
 .cap16 .c-hero .c-kicker{color:#fff}
 .cap16 .c-hero .c-kicker span{color:#7cc7ff}
+
+/* Revision 11: force the approved white/blue eyebrow treatment */
+.cap16 .c-hero .c-kicker{color:#ffffff !important}
+.cap16 .c-hero .c-kicker span{color:#7cc7ff !important}
