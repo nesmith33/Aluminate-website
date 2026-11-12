@@ -17,3 +17,8 @@
 .finishes18 .foptions .fswatch-grid img{display:block;border:1px solid #8caeb9;border-radius:12px;object-fit:cover}
 @media(max-width:850px){.finishes18 .fbenefits svg{height:42px;width:42px}.finishes18 .fstage-captions{gap:10px}.finishes18 .fdepth{background-size:auto 100%}}
 @media(max-width:560px){.finishes18 .fhero{background-position:70% center}.finishes18 .fhero-copy{max-width:100%}.finishes18 .fbenefits svg{height:30px;width:30px}.finishes18 .fstage{aspect-ratio:1024/310;background-size:100% 100%}.finishes18 .fstage-captions{grid-template-columns:repeat(2,1fr);row-gap:18px}.finishes18 .fstage-captions h2{font-size:19px}.finishes18 .fdepth{background-position:65% center}.finishes18 .fdepth-copy{width:90%;background:linear-gradient(90deg,#031421c9,transparent)}}
+
+/* Revision 8: approved tactile texture icon, same footprint as original SVG */
+.fbenefits .tactile-texture-icon{display:block;width:55px;height:55px;object-fit:contain;flex-shrink:0}
+@media(max-width:700px){.fbenefits .tactile-texture-icon{width:42px;height:42px}}
+@media(max-width:440px){.fbenefits .tactile-texture-icon{width:30px;height:30px}}
