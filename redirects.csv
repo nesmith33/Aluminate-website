@@ -1,8 +1,8 @@
-Source,Destination,Status Code
-https://aluminatecans.com/design,https://www.aluminatecans.com/finishes/,301
-https://aluminatecans.com/why-aluminate,https://www.aluminatecans.com/capabilities/,301
-https://aluminatecans.com/beverage-can-design-considerations,https://aluminatecans.com/industry-insights/ ,307
-https://aluminatecans.com/drink-can-textures,https://www.aluminatecans.com/capabilities/ ,307
-https://aluminatecans.com/full-color-digital-can-printing,https://aluminatecans.com/industry-insights/,307
-https://aluminatecans.com/how-to-print-beverage-can-designs,https://aluminatecans.com/industry-insights/,307
-https://aluminatecans.com/distributors,https://www.aluminatecans.com/contact/,301
+source,destination,statusCode
+/design,/finishes/,301
+/why-aluminate,/capabilities/,301
+/beverage-can-design-considerations,/industry-insights/,307
+/drink-can-textures,/capabilities/,307
+/full-color-digital-can-printing,/industry-insights/,307
+/how-to-print-beverage-can-designs,/industry-insights/,307
+/distributors,/contact/,301
